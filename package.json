@@ -1,6 +1,6 @@
 {
   "name": "iframe-console",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Get console and error information from an iframe",
   "main": "lib/index.js",
   "scripts": {
