@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/danleavitt0/iframe-console/issues"
   },
-  "homepage": "https://github.com/danleavitt0/iframe-console#readme",
-  "dependencies": {
-    "parsetrace": "^0.2.0"
-  }
+  "homepage": "https://github.com/danleavitt0/iframe-console#readme"
 }
