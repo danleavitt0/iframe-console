@@ -4,7 +4,14 @@
   "description": "Get console and error information from an iframe",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run validate",
+    "preversion": "npm run test",
+    "postversion": "git push && git push --tags && npm publish --access=public",
+    "validate": "standard",
+    "clean": "rm -rf lib",
+    "init:travis": "travis enable",
+    "init": "npm install && npm run init:git && npm run init:travis",
+    "dev": "beefy src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/danleavitt0/iframe-console/issues"
   },
-  "homepage": "https://github.com/danleavitt0/iframe-console#readme"
+  "homepage": "https://github.com/danleavitt0/iframe-console#readme",
+  "devDependencies": {
+    "beefy": "^2.1.6",
+    "tape": "^4.5.1",
+    "tape-run": "^2.1.3"
+  }
 }
