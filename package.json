@@ -25,6 +25,7 @@
   "homepage": "https://github.com/danleavitt0/iframe-console#readme",
   "devDependencies": {
     "beefy": "^2.1.6",
+    "standard": "^6.0.8",
     "tape": "^4.5.1",
     "tape-run": "^2.1.3"
   }
