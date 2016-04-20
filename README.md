@@ -38,8 +38,8 @@ window.addEventListener('message', function ({type, data}) {
 
 [travis-image]: https://img.shields.io/travis/danleavitt0/iframe-console.svg?style=flat
 [travis-url]: https://travis-ci.org/danleavitt0/iframe-console
-[git-image]: https://img.shields.io/github/tag/ev3-js/iframe-console.svg?style=flat
-[git-url]: https://github.com/ev3-js/iframe-console
+[git-image]: https://img.shields.io/github/tag/danleavitt0/iframe-console.svg?style=flat
+[git-url]: https://github.com/danleavitt0/iframe-console
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
 [standard-url]: https://github.com/feross/standard
 [npm-image]: https://img.shields.io/npm/v/iframe-console.svg?style=flat
